@@ -36,6 +36,6 @@ class GroupFormModelProvider extends InheritedWidget {
   }
   @override
   bool updateShouldNotify(GroupFormModelProvider old) {
-    return  true;
+    return  false;
   }
 }

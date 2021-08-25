@@ -78,7 +78,7 @@ class _GroupNameWidget extends StatelessWidget {
             child: ListTile(
               title: Text(group.name),
               trailing: Icon(Icons.chevron_right),
-              onTap:(){} ,
+              onTap:()=> model.showTasks(context, indexItem) ,
             )));
   }
 }
