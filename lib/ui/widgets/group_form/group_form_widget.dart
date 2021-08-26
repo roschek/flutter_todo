@@ -12,7 +12,9 @@ class GroupFormWidget extends StatefulWidget {
     final _model = GroupFormModel();
     @override
     Widget build(BuildContext context){
-      return GroupFormModelProvider(model: _model, child:_GroupFormWidgetBody());
+      return GroupFormModelProvider(
+          model: _model,
+          child:_GroupFormWidgetBody());
     }
   }
 
